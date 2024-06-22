@@ -1,7 +1,7 @@
 {
   "name": "infinite-scroll",
   "version": "1.0.0",
-  "description": "## Hacker News Client",
+  "description": "Infinite Scroll",
   "main": "src/index.tsx",
   "homepage": "https://m0hit-singh.github.io/Infinite-Scroll",
   "scripts": {
