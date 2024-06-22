@@ -1,0 +1,37 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "description": "## Hacker News Client",
+  "main": "src/index.tsx",
+  "homepage": "https://m0hit-singh.github.io/Infinite-Scroll",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "vite build",
+    "test": "jest",
+    "test:coverage": "jest test --env=jsdom --watchAll=false --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "gh-pages": "^6.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
